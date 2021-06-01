@@ -1,0 +1,22 @@
+Number of frequency hops: 8
+Dongle bandwidth: 2500000Hz
+Downsampling by: 1x
+Cropping by: 0.00%
+Total FFT bins: 512
+Logged FFT bins: 512
+FFT bin size: 39062.50Hz
+Buffer size: 16384 bytes (3.28ms)
+Reporting every 10 seconds
+Found 1 device(s):
+  0:  Realtek, RTL2838UHIDIR, SN: 00000001
+
+Using device 0: Generic RTL2832U OEM
+Detached kernel driver
+Found Rafael Micro R820T tuner
+Tuner gain set to automatic.
+Exact sample rate is: 2500000.107620 Hz
+[R82XX] PLL not locked!
+Signal caught, finishing scan pass.
+
+User cancel, exiting...
+Reattached kernel driver
