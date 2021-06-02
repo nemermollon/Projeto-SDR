@@ -11,6 +11,9 @@ import subprocess
 #test = subprocess.Popen(["ls", "-l"], stdout=subprocess.PIPE)
 #output = test.communicate()[0]
 
+# Uso
+# rtl_power -f 80M:100M:25k -g 50 -i 10 -e 10m 1.csv && wait && ./heatmap2.py 1.csv 1.png
+
 test = subprocess.Popen(["rtl_power", "-f", "80M:100M:50k", "-1", "saida.csv"], stdout=subprocess.PIPE)
 output = test.communicate()[0]
 
